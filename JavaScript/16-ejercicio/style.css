@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion {
+    background: gray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background: white;
+    padding: 1rem;
+    user-select: none;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
+.imagen-fantasma {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    left: -100vw;
+}
+
+.papelera{
+    width: 100px;
+    height: auto;
+}
+
+.imagen-fantasma-delete{
+    opacity:.5;
+}
