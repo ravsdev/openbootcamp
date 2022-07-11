@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.btn-modern{
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem 2rem;
+    background-color: darkcyan;
+    border-bottom: 2px solid rgb(8, 54, 69);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .4s, box-shadow .4s, background-color .4s,color .4s;
+    
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(48, 181, 225);
+    border-bottom: 2px solid darkcyan;
+    color: black;
+}
+
+.btn-modern:hover::after{
+    content: "Example button";
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    transform: translateX(50%);
+    background-color: lightgrey;
+    padding: .5rem;
+    border-radius: .25rem;
+}
