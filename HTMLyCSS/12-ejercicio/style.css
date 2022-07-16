@@ -1,0 +1,4 @@
+.card-img-top{
+    max-height: 10rem;
+    object-fit: cover;
+}
