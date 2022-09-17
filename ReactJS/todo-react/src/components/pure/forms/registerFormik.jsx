@@ -1,6 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { object, string } from 'yup';
+//import { object, string } from 'yup';
+import * as Yup from 'yup';
 
 import { User } from '../../../models/user.class';
 import { ROLES } from '../../../models/roles.enum';
